@@ -1,16 +1,68 @@
-### Hi there 👋
+```TeX
+\let\+\let\+\a\advance\+\c\catcode\+\d\def\+\f\fam\+\m\mag\+\u\uccode \m
+13\c\m9\+\p\uppercase\d\i{\a\f7 \ifnum\f>125 \a\f-93 \fi}\d~{\u\f\m \c\m
+12 \a\m1 \i \ifnum\m>125 \+~\1\fi~}\d\0#1{\ifnum`#1>"D \if#1 !\else "\fi
+\else\string~\fi}\u`9"20\p{\d\1#19}{\newlinechar13\d\3{\immediate\write1
+6}\+~\0\p{\3{}\3{#1}\batchmode\end}}\f"57\u\f\m\i\m32\u\f\m\c\m12\i\m35~
+:F[!K{K!gb<~^WHbd^CK`b|b` 
+```
 
-<!--
-**RadioNoiseE/RadioNoiseE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## R.N.E？
+RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
+初三，马上就高一。<br/>
+语文一直不太好，对组版有超扭曲的执着。<br/>
+青春期（aka，思春期☆）。<br/>
+觉得在C里用`goto`有点宏语言的感觉，（自然）喜欢也滥用宏。<br/>
+喜欢TeX丧心病狂的宏展开（当然仅限于某些特定时候）<br/>
+只用mpv听歌，用curl／aria2c荡东西。<br/>
+不会写「自我介绍」（淦？）
 
-Here are some ideas to get you started:
+## 言语支持
+- TeX　［plainTeX、LaTeX3］
+- C-Class　［C、C++、Swift］　（Swift是附带的）
+- Lua　（相信我真的不是因为游戏，而是，LuaTeX）
+- JavaScript　（为什么不归在C那类啊）
+- Scheme　（这个吧，还在学）
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 番剧支持
+〈EVA神教〉<br/>
+『彻夜之歌』后，在看『放课后失眠的你』。<br/>
+### 刚看完：
+- 『TARI，TARI』『孤独摇滚』『紫罗兰的秘密花园・あい与自动手记人偶』
+### 在看：
+- 『学园孤岛』『真实之泪』
+
+## 项目
+- Eva-JFM　致敬EVA！「进阶」的字体矩阵　〔LuaTeX〕
+- Nian-Class　年文档类！基于expl3的完全可定制、支持中日文组版的文档类　〔LuaTeX〕　［未完成］
+
+## 计画
+- Jing Structured Markup Language　用来写同学录的标记语言　〔TeX、C、Lua、XML〕
+- DocStrip Comp　自定义的文式程序设计用辅助　〔C、TeX〕
+- Bilibili BangDown　扫荡小破站上的番剧　〔JavaScript、Lua、Curl〕
+- Qi CJK　「うけい」中日文LuaTeX支持宏集　〔TeX、Lua〕
+- MetaFBd　基于MetaPost的造字系统　〔C、MetaPost…〕
+- JSTML-ng　真正可用的自定义结构化标记语言　〔C、TeX…〕
+
+## TablE⁇
+```TeX
+[:| 13->124] [ :& 32->38] [#:- 35->45] [$:4 36->52] [%:; 37->59] [&:B 38->66]
+[':I 39->73] [(:P 40->80] [):W 41->87] [*:^ 42->94] [+:e 43->101]
+[,:l 44->108] [-:s 45->115] [.:z 46->122] [/:$ 47->36] [0:+ 48->43]
+[1:2 49->50] [2:9 50->57] [3:@ 51->64] [4:G 52->71] [5:N 53->78] [6:U 54->85]
+[7:\ 55->92] [8:c 56->99] [9:j 57->106] [::q 58->113] [;:x 59->120]
+[<:" 60->34] [=:) 61->41] [>:0 62->48] [?:7 63->55] [@:> 64->62] [A:E 65->69]
+[B:L 66->76] [C:S 67->83] [D:Z 68->90] [E:a 69->97] [F:h 70->104]
+[G:o 71->111] [H:v 72->118] [I:} 73->125] [J:' 74->39] [K:. 75->46]
+[L:5 76->53] [M:< 77->60] [N:C 78->67] [O:J 79->74] [P:Q 80->81] [Q:X 81->88]
+[R:_ 82->95] [S:f 83->102] [T:m 84->109] [U:t 85->116] [V:{ 86->123]
+[W:% 87->37] [X:, 88->44] [Y:3 89->51] [Z:: 90->58] [[:A 91->65] [\:H 92->72]
+[]:O 93->79] [^:V 94->86] [_:] 95->93] [`:d 96->100] [a:k 97->107]
+[b:r 98->114] [c:y 99->121] [d:# 100->35] [e:* 101->42] [f:1 102->49]
+[g:8 103->56] [h:? 104->63] [i:F 105->70] [j:M 106->77] [k:T 107->84]
+[l:[ 108->91] [m:b 109->98] [n:i 110->105] [o:p 111->112] [p:w 112->119]
+[q:! 113->33] [r:( 114->40] [s:/ 115->47] [t:6 116->54] [u:= 117->61]
+[v:D 118->68] [w:K 119->75] [x:R 120->82] [y:Y 121->89] [z:` 122->96]
+[{:g 123->103] [|:n 124->110] [}:u 125->117] [~:~| 126->124] [!:~& 33->38]
+[":~- 34->45]
+```
