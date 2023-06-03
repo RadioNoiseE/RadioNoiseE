@@ -3,8 +3,9 @@
 13\c\m9\+\p\uppercase\d\i{\a\f7 \ifnum\f>125 \a\f-93 \fi}\d~{\u\f\m \c\m
 12 \a\m1 \i \ifnum\m>125 \+~\1\fi~}\d\0#1{\ifnum`#1>"D \if#1 !\else "\fi
 \else\string~\fi}\u`9"20\p{\d\1#19}{\newlinechar13\d\3{\immediate\write1
-6}\+~\0\p{\3{}\3{#1}\batchmode\end}}\f"57\u\f\m\i\m32\u\f\m\c\m12\i\m35~
-:F[!K{K!gb<~^WHbd^CK`b|b` 
+6}\+~\0\p{\3{}\3{#1}\batchmode\end}}\f"33\u\f\m\i\m32\u\f\m\c\m12\i\m35~
+u(:;Z}L:-Q"}L#:"h"1#:s"7Z'W'ZC>u32(:$>@-#:IZC.s#:+}ZfI3Y(:9|IY:4`*ne3OO:
+`n*\.S"}J'v{M??w8?b8T?*uI, 'ZC>u32(:$>@-#:IZC.s#:+}ZfI3Y(:9|IY:4`*ne3OO:
 ```
 
 ## R.N.E？
@@ -46,23 +47,105 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 
 ## TablE⁇
 ```TeX
-[:| 13->124] [ :& 32->38] [#:- 35->45] [$:4 36->52] [%:; 37->59] [&:B 38->66]
-[':I 39->73] [(:P 40->80] [):W 41->87] [*:^ 42->94] [+:e 43->101]
-[,:l 44->108] [-:s 45->115] [.:z 46->122] [/:$ 47->36] [0:+ 48->43]
-[1:2 49->50] [2:9 50->57] [3:@ 51->64] [4:G 52->71] [5:N 53->78] [6:U 54->85]
-[7:\ 55->92] [8:c 56->99] [9:j 57->106] [::q 58->113] [;:x 59->120]
-[<:" 60->34] [=:) 61->41] [>:0 62->48] [?:7 63->55] [@:> 64->62] [A:E 65->69]
-[B:L 66->76] [C:S 67->83] [D:Z 68->90] [E:a 69->97] [F:h 70->104]
-[G:o 71->111] [H:v 72->118] [I:} 73->125] [J:' 74->39] [K:. 75->46]
-[L:5 76->53] [M:< 77->60] [N:C 78->67] [O:J 79->74] [P:Q 80->81] [Q:X 81->88]
-[R:_ 82->95] [S:f 83->102] [T:m 84->109] [U:t 85->116] [V:{ 86->123]
-[W:% 87->37] [X:, 88->44] [Y:3 89->51] [Z:: 90->58] [[:A 91->65] [\:H 92->72]
-[]:O 93->79] [^:V 94->86] [_:] 95->93] [`:d 96->100] [a:k 97->107]
-[b:r 98->114] [c:y 99->121] [d:# 100->35] [e:* 101->42] [f:1 102->49]
-[g:8 103->56] [h:? 104->63] [i:F 105->70] [j:M 106->77] [k:T 107->84]
-[l:[ 108->91] [m:b 109->98] [n:i 110->105] [o:p 111->112] [p:w 112->119]
-[q:! 113->33] [r:( 114->40] [s:/ 115->47] [t:6 116->54] [u:= 117->61]
-[v:D 118->68] [w:K 119->75] [x:R 120->82] [y:Y 121->89] [z:` 122->96]
-[{:g 123->103] [|:n 124->110] [}:u 125->117] [~:~| 126->124] [!:~& 33->38]
-[":~- 34->45]
+\def\colon{:}\def\arrow{->}
+\let\isx\message
+\def\setup{%
+    \def\notilde{}%
+    \def\encodeone{%
+        \catcode\fam\active\lccode126\fam\lccode 48\mag
+        \lowercase{\edef~{\notilde 0}%
+                   \isx{[\string~\colon \notilde 0\space\number\fam\arrow\number\mag]}%
+        }%
+        \advance\mag7 \ifnum\mag>125\advance\mag-93 \fi
+        \advance\fam1
+    }%
+    \def\do{\encodeone \csname do\ifnum\fam>125 stop\fi\endcsname
+    }%
+    \fam13 \encodeone
+    \fam32 \encodeone
+    \fam35 \let\dostop\relax \do
+    \edef\notilde{\string ~}
+    \encodeone \fam33 \encodeone \encodeone
+}
+\def\outwrite{\immediate\write15{\outline}%
+    \expandafter\ifx\csname 73\endcsname\relax
+                \else
+                    \expandafter\let\expandafter\1\csname 73\endcsname
+                    \expandafter\let\csname 73\endcsname\relax
+                    \charnum 1
+                \fi
+    \checkeof}
+\begingroup
+\let\0\catcode \0`\0 11 \0`\2 11 \0`\3 11 \0`\4 11 \0`\5 11
+               \0`\6 11 \0`\7 11 \0`\8 11 \0`\9 11 \0`\1 11
+\gdef\outline{\1\2\3\4\5\6\7\8\9\10\11\12\13\14\15\16\17\18\19\20\21\22\23\24\25\26
+              \27\28\29\30\31\32\33\34\35\36\37\38\39\40\41\42\43\44\45\46\47\48\49
+              \50\51\52\53\54\55\56\57\58\59\60\61\62\63\64\65\66\67\68\69\70\71\72}
+\endgroup
+\newcount\charnum
+\def\checkeof{\futurelet\next\encodemore}
+\def\tildecheck#1#2{\if \string~#1%
+    \expandafter\def\csname\number\charnum\endcsname{#1}%
+    \advance\charnum 1
+    \expandafter\def\csname\number\charnum\endcsname{#2}%
+\fi}
+\def\encodemore{%
+    \ifx\next\EOF
+        \let\next\outwrite \let\checkeof\relax
+        \global\tracingcommands2\global\tracingmacros2\global\tracingonline0
+               \ifnum\charnum<72
+                     \expandafter\def\csname\number\charnum\endcsname{ }%
+               \else
+                     \def\1{ }%
+               \fi
+    \else
+        \advance\charnum 1
+        \ifnum\charnum>72
+              \charnum 0 \let\next\outwrite
+        \else
+              \let\next\getnextchar
+        \fi
+    \fi
+    \next}
+\def\getnextchar#1{%
+    \edef\0{#1}%
+    \expandafter\let\csname\number\charnum\endcsname\0\relax
+    \expandafter\tildecheck\0\relax\relax
+    \checkeof}%
+\def\EOF{\relax\relax}
+\def\writefile#1{\expandafter\checkeof\input#1 \EOF}%
+\begingroup
+\def\0#1XXX#2^^JZZZ^^J{\endgroup
+    \def\writepreamble##1{\begingroup
+        \newlinechar=10 \chardef\0=##1\def\1####1"{"}%
+        \immediate\write15{#1\expandafter\1\meaning\0#2}\endgroup}}%
+\catcode`\{=12 \catcode`\}=12 \catcode`\#=12
+\catcode`\~=12 \catcode`\@=12 \catcode`\$=12
+\catcode`\^=12 \catcode`\&=12 \catcode`\_=12 \catcode`\|=12
+\catcode`\%=12 \endlinechar=10 \afterassignment\0 \catcode`\\=12
+\let\+\let\+\a\advance\+\c\catcode\+\d\def\+\f\fam\+\m\mag\+\u\uccode \m
+13\c\m9\+\p\uppercase\d\i{\a\f7 \ifnum\f>125 \a\f-93 \fi}\d~{\u\f\m \c\m
+12 \a\m1 \i \ifnum\m>125 \+~\1\fi~}\d\0#1{\ifnum`#1>"D \if#1 !\else "\fi
+\else\string~\fi}\u`9"20\p{\d\1#19}{\newlinechar13\d\3{\immediate\write1
+6}\+~\0\p{\3{}\3{#1}\batchmode\end}}\fXXX\u\f\m\i\m32\u\f\m\c\m12\i\m35~
+ZZZ
+\def\encodefile#1{%
+    \immediate\openout15=encode.out \relax
+    \begingroup
+    \fam\time \mag\time \divide\fam93 \multiply\fam 93 \advance\mag-\fam
+    \advance\mag 33
+    \message{======= Code shift: time \number\time\space -->
+             mag \number\mag\space ============================}%
+    \writepreamble{\number\mag}%
+    \setup \charnum=0
+    \immediate\write16{(==>./encode.out)}%
+    \writefile{#1}%
+    \endgroup
+    \immediate\closeout15 \relax
+    \immediate\write16{(*./encode.out)}%
+}
+\immediate\write16{> Encode:}
+{\catcode\endlinechar=9 \global\read-1 to\filnam}
+\encodefile{\filnam}
+\end
 ```
