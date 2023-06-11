@@ -16,11 +16,12 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 觉得在C里用`goto`有点宏语言的感觉，（自然）喜欢也滥用宏。<br/>
 喜欢TeX丧心病狂的宏展开（当然仅限于某些特定时候）<br/>
 只用mpv听歌，用curl／aria2c荡东西。<br/>
+有时候（iPad没有计算器）会把Lua的独立解释器当计算器用。<br/>
 不会写「自我介绍」（淦？）
 
 ## 言语支持
 - TeX　［plainTeX、LaTeX3］
-- C-Class　［C、C++、Swift］　（Swift是附带的）
+- C-Class　［C、C++、Swift］　（Swift是附带的，没太大开发iOS应用的动力）
 - Lua　（相信我真的不是因为游戏，而是，LuaTeX）
 - JavaScript　（为什么不归在C那类啊）
 - Scheme　（这个吧，还在学）
@@ -31,21 +32,22 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 ### 刚看完：
 - 『TARI，TARI』『孤独摇滚』『紫罗兰的秘密花园・あい与自动手记人偶』
 ### 在看：
-- 『学园孤岛』『真实之泪』
+- 『学园孤岛』『真实之泪』『花开物语』
 
 ## 项目
 - Eva-JFM　致敬EVA！「进阶」的字体矩阵　〔LuaTeX〕
 - Nian-Class　年文档类！基于expl3的完全可定制、支持中日文组版的文档类　〔LuaTeX〕　［未完成］
+- JSTML　用来写同学录的简易标记语言　〔C、TeX、Lua〕　［未完成］
 
 ## 计画
-- Jing Structured Markup Language　用来写同学录的标记语言　〔TeX、C、Lua、XML〕
+- ~~Jing Structured Markup Language　用来写同学录的标记语言　〔TeX、C、Lua、XML〕~~
 - DocStrip Comp　自定义的文式程序设计用辅助　〔C、TeX〕
 - Bilibili BangDown　扫荡小破站上的番剧　〔JavaScript、Lua、Curl〕
 - Qi CJK　「うけい」中日文LuaTeX支持宏集　〔TeX、Lua〕
 - MetaFBd　基于MetaPost的造字系统　〔C、MetaPost…〕
 - JSTML-ng　真正可用的自定义结构化标记语言　〔C、TeX…〕
 
-## TablE⁇
+## `\expandafter`⁇
 ```TeX
 \def\colon{:}\def\arrow{->}
 \let\isx\message
