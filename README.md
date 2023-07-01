@@ -20,7 +20,7 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 
 ## 言语支持
 - TeX　［plain-TeX、LaTeX3］
-- C-Class　［C、C++、Swift］　（Swift是附带的，没太大开发iOS应用的动力）
+- C-Class　［C、C艹、Swift］　（Swift是附带的，没太大开发iOS应用的动力）
 - Lua　（相信我真的不是因为游戏，而是，LuaTeX）
 - JavaScript　（为什么不归在C那类啊，哦，DOM啊）
 - Scheme　（这个吧，还在学：『The Little Schemer』阅读中）
@@ -38,10 +38,11 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 ## 项目
 - Eva-JFM　致敬EVA！「进阶」的字体矩阵　〔LuaTeX〕
 - Nian-Class　年文档类！基于expl3的完全可定制、支持中日文组版的文档类　〔LuaTeX〕　［未完成］
-- JSTML　用来写同学录的简易标记语言　〔C、TeX、Lua〕　［半完成・文档瞎编中］
+- JSTML　用来写同学录的简易标记语言　〔C、TeX、Lua〕
 
 ## 计画
 - ~~Jing Structured Markup Language　用来写同学录的标记语言　〔TeX、C、Lua、XML〕~~
+- Aria2Curl　把给Aria2c用的输入文件扔给Curl用的　〔C／C艹〕
 - DocStrip Comp　自定义的文式程序设计用辅助　〔C、TeX〕
 - Bilibili BangDown　扫荡小破站上的番剧　〔JavaScript、Lua、Curl〕
 - Aria2Curl　让curl支持aria2c格式的输入文件　〔C〕
