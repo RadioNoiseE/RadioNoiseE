@@ -14,6 +14,7 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 语文一直不太好，对组版有超扭曲的执着。<br/>
 青春期（aka，思春期☆）。<br/>
 觉得在C里用`goto`有点宏语言的感觉，（自然）喜欢也滥用宏。<br/>
+因为在看『The Little Schemer』，导致最近特别喜欢用尾递归。<br/>
 喜欢TeX丧心病狂的宏展开（当然仅限于某些特定时候）；仰视NFSS的魔鬼尾递归瑟瑟发抖。<br/>
 只用mpv听歌，用curl／aria2c荡东西。<br/>
 有时候（iPad没有计算器）会把Lua的独立解释器当计算器用。
@@ -33,16 +34,17 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 ### 刚看完：
 - 『TARI，TARI』『孤独摇滚』『紫罗兰的秘密花园・あい与自动手记人偶』
 ### 在看：
-- 『学园孤岛』『真实之泪』『花开物语』
+- 『学园孤岛』『真实之泪』『花开物语』『真物究竟是什么・终』
 
 ## 项目
 - Eva-JFM　致敬EVA！「进阶」的字体矩阵　〔LuaTeX〕
 - Nian-Class　年文档类！基于expl3的完全可定制、支持中日文组版的文档类　〔LuaTeX〕　［未完成］
 - JSTML　用来写同学录的简易标记语言　〔C、TeX、Lua〕
+- Aria2Curl　将Aria2c输入文件转换为Curl输入文件　〔C〕　［还有部分Option未适配、或是Curl根本就不支持那个特性］
 
 ## 计画
 - ~~Jing Structured Markup Language　用来写同学录的标记语言　〔TeX、C、Lua、XML〕~~
-- Aria2Curl　把给Aria2c用的输入文件扔给Curl用的　〔C／C艹〕
+- ~~Aria2Curl　把给Aria2c用的输入文件扔给Curl用的　〔C／C艹〕~~
 - DocStrip Comp　自定义的文式程序设计用辅助　〔C、TeX〕
 - Bilibili BangDown　扫荡小破站上的番剧　〔JavaScript、Lua、Curl〕
 - Aria2Curl　让curl支持aria2c格式的输入文件　〔C〕
