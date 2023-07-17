@@ -12,7 +12,7 @@ u`\@!F`bNKII-E\lu`\k|ll4`\?Ru`;`^SUq\d2I{B|~\ 8E\MB|+kU{J\[Ak{\V%L3*Uq\l
 RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 初三，马上就高一。这不中考刚考完（2023·6·19）。<br/>
 语文一直不太好，对组版有超扭曲的执着。<br/>
-青春期（aka，思春期☆）。<br/>
+~青春期（aka，思春期☆）。~<br/>
 觉得在C里用`goto`有点宏语言的感觉，（自然）喜欢也滥用宏。<br/>
 因为在看『The Little Schemer』，导致最近特别喜欢用尾递归。<br/>
 喜欢TeX丧心病狂的宏展开（当然仅限于某些特定时候）；仰视NFSS的魔鬼尾递归瑟瑟发抖。<br/>
@@ -23,22 +23,25 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 - TeX　［plain-TeX、LaTeX3］
 - C-Class　［C、C艹、Swift］　（Swift是附带的，没太大开发iOS应用的动力）
 - Lua　（相信我真的不是因为游戏，而是，LuaTeX）
-- JavaScript　（为什么不归在C那类啊，哦，DOM啊）
+- JavaScript　（为什么不归在C那类啊，哦，脚本语言啊，不是有JIT吗，DOM吧）
 - Scheme　（这个吧，还在学：『The Little Schemer』阅读中）
+- Python　（呃这个还是会的）
 
 ![言語支持](https://github-readme-stats.vercel.app/api/top-langs/?username=RadioNoiseE&layout=compact)
 
 ## 番剧支持
 〈EVA神教〉<br/>
-『彻夜之歌』后，在看『放课后失眠的你』。<br/>
+『彻夜之歌』后，在看『放课后失眠的你』（看完了）。<br/>
 ### 刚看完：
 - 『TARI，TARI』『孤独摇滚』『紫罗兰的秘密花园・あい与自动手记人偶』
-### 在看：
 - 『学园孤岛』『真实之泪』『花开物语』『真物究竟是什么・终』
+- 『白箱』『Exodus』『三女』『小龙家的龙女仆』
+### 在看：
+- 『蜂蜜与四叶草』『处刑少女的生存之道』『奇巧计程车』
 
 ## 项目
 - Eva-JFM　致敬EVA！「进阶」的字体矩阵　〔LuaTeX〕
-- Nian-Class　年文档类！基于expl3的完全可定制、支持中日文组版的文档类　〔LuaTeX〕　［未完成］
+- Nian-Class　年文档类！基于expl3的完全可定制、支持中日文组版的文档类　〔LuaTeX、LaTeX3〕　［未完成］
 - JSTML　用来写同学录的简易标记语言　〔C、TeX、Lua〕
 - Aria2Curl　将Aria2c输入文件转换为Curl输入文件　〔C〕　［还有部分Option未适配、或是Curl根本就不支持那个特性］
 
@@ -47,7 +50,6 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 - ~~Aria2Curl　把给Aria2c用的输入文件扔给Curl用的　〔C／C艹〕~~
 - DocStrip Comp　自定义的文式程序设计用辅助　〔C、TeX〕
 - Bilibili BangDown　扫荡小破站上的番剧　〔JavaScript、Lua、Curl〕
-- Aria2Curl　让curl支持aria2c格式的输入文件　〔C〕
 - Qi CJK　「うけい」中日文LuaTeX支持宏集（感觉LuaTeX-ja还是有点重）　〔TeX、Lua〕
 - MetaFBd　基于MetaPost的造字系统　〔C、MetaPost…〕
 - JSTML-ng　真正可用的自定义结构化标记语言（目前的想法是给TeX封装一个类Lisp的语法？）　〔C、TeX…〕
