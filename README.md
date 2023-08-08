@@ -3,16 +3,16 @@
 13\c\m9\+\p\uppercase\d\i{\a\f7 \ifnum\f>125 \a\f-93 \fi}\d~{\u\f\m \c\m
 12 \a\m1 \i \ifnum\m>125 \+~\1\fi~}\d\0#1{\ifnum`#1>"D \if#1 !\else "\fi
 \else\string~\fi}\u`9"20\p{\d\1#19}{\newlinechar13\d\3{\immediate\write1
-6}\+~\0\p{\3{}\3{#1}\batchmode\end}}\f"55\u\f\m\i\m32\u\f\m\c\m12\i\m35~
-:J\]|Bn\OsDBnE\D-DSE\8DY|IyI|e`:UTJ\F`bOE\k|eP8E\MB|+kU{J\[Ak{\V%L3*Uq\l
-u`\@!F`bNKII-E\lu`\k|ll4`\?Ru`;`^SUq\d2I{B|~\ 8E\MB|+kU{J\[Ak{\V%L3*Uq\l
+6}\+~\0\p{\3{}\3{#1}\batchmode\end}}\f"28\u\f\m\i\m32\u\f\m\c\m12\i\m35~
+D/"OR/bt~/(jz/0OrA/"FtrAu/t]t&u/ht,OyLyO83j('z/v35"u/>O8#hu/}rO[>(Nz/.q>
+ /)U|cZ(D/pQv35!{yy]u/?H3/>O??d3/o%H3k31&(D/]byNrOu/%b{31ZFr]u/?b#3o3?&(
 ```
 
 ## R.N.E？
 RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 初三，马上就高一。这不中考刚考完（2023·6·19）。<br/>
 语文一直不太好，对组版有超扭曲的执着。<br/>
-~青春期（aka，思春期☆）。~<br/>
+~~青春期（aka，思春期☆）。~~<br/>
 觉得在C里用`goto`有点宏语言的感觉，（自然）喜欢也滥用宏。<br/>
 因为在看『The Little Schemer』，导致最近特别喜欢用尾递归。<br/>
 喜欢TeX丧心病狂的宏展开（当然仅限于某些特定时候）；仰视NFSS的魔鬼尾递归瑟瑟发抖。<br/>
@@ -25,6 +25,7 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 - Lua　（相信我真的不是因为游戏，而是，LuaTeX）
 - JavaScript　（为什么不归在C那类啊，哦，脚本语言啊，不是有JIT吗，DOM吧）
 - Scheme　（这个吧，还在学：『The Little Schemer』阅读中）
+- Shell　（最原始的dash标准）
 - Python　（呃这个还是会的）
 
 ![言語支持](https://github-readme-stats.vercel.app/api/top-langs/?username=RadioNoiseE&layout=compact)
@@ -35,9 +36,9 @@ RadioNoiseE，启发来源于『某魔法的禁书目录』。<br/>
 ### 刚看完：
 - 『TARI，TARI』『孤独摇滚』『紫罗兰的秘密花园・あい与自动手记人偶』
 - 『学园孤岛』『真实之泪』『花开物语』『真物究竟是什么・终』
-- 『白箱』『Exodus』『三女』『小龙家的林女仆』
+- 『白箱』『Exodus』『三女』『小林家的龙女仆』
 ### 在看：
-- 『蜂蜜与四叶草』『处刑少女的生存之道』『奇巧计程车』
+- 『蜂蜜与四叶草』『处刑少女的生存之道』『奇巧计程车』『冰菓』
 
 ## 项目
 - Eva-JFM　致敬EVA！「进阶」的字体矩阵　〔LuaTeX〕
