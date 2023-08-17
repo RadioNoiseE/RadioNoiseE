@@ -1,0 +1,11 @@
+(preamble `(Hi' ya!))
+(plain
+  (name (`(Jing Huang) (aka `(RadioNoiseE))))
+  (age `(15))
+  (region `(China Mainland))
+  (edu (school `(WFLA)) (flavor `(IB-DP)))
+  (lang (parent `(Chinese)) (foreign `(English) `(Jaoanese)))
+  (pl `(TeX) `(C-class) `(Lua) `(JavaScript) `(Python) `(XML) `(Python) `(Scheme))
+  (anime `(Evangelion))
+)
+(postamble `(\endinput))
