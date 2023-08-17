@@ -1,7 +1,7 @@
 from textual.app import App, ComposeResult
 from textual.widgets import MarkdownViewer
 
-with open("README.md") as file:
+with open("./Hist/HIDDEN.md") as file:
     INTRO_MARKDOWN = file.read()
 
 class MarkdownExampleApp(App):
