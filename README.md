@@ -1,11 +1,6 @@
 <table>
   <tr>
     <td valign="middle">
-      <a href="./Hist/HIDDEN.md">
-        <img src="./ff0.png" alt="ff0" align="right" />
-      </a>
-    </td>
-    <td valign="middle">
       <blockquote>
         There is a history in all shit-mountain's lives.
       </blockquote>
@@ -22,4 +17,11 @@ Nx+a0EC$m=i3wnttt<CCmx+)UCm7+EG)SC$mp\c)GLGttCmN0EGcU)C$m!)UxcL\tC$mD+0+
 )GLGttt<CCm7xC$m-GItC$mp39x+LLtC$mRZ+tC$mD+a+&9Ec7StC$mnvS\0)tC$mIYRtC$m
 nvS\0)tC$m&9\G"Gtt<CCm+)c"GC$m!a+)UGxc0)tt<t<m70LS+"2xGC$meG)@c)7ZStt $m
 ```
+
+    </td>
+    <td valign="middle">
+      <a href="./Hist/HIDDEN.md">
+        <img src="./ff0.png" alt="ff0" align="middle"/>
+      </a>
+    </td>
   </tr>
