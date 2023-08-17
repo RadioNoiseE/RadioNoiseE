@@ -2,7 +2,7 @@
   <tr>
     <td valign="middle">
       <a href="./Hist/HIDDEN.md">
-        <img src="./ff0.png" height = "250" alt="ff0" align="right" />
+        <img src="./ff0.png" alt="ff0" align="right" />
       </a>
     </td>
     <td valign="middle">
