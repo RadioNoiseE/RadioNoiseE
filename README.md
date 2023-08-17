@@ -6,7 +6,9 @@
       </a>
     </td>
     <td valign="middle">
-> There is a history in all shit-mountain's lives.
+      <blockquote>
+        There is a history in all shit-mountain's lives.
+      </blockquote>
 
 ```TeX
 \let\+\let\+\a\advance\+\c\catcode\+\d\def\+\f\fam\+\m\mag\+\u\uccode \m
