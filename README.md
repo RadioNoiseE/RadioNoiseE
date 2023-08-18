@@ -2,7 +2,7 @@
 <tr>
 <td valign="middle">
 <blockquote>
-There is a history in all shit-mountain's lives.
+Misery acquaints a man with strange errors.
 </blockquote>
 
 ```TeX
