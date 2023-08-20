@@ -21,7 +21,7 @@ nvS\0)tC$m&9\G"Gtt<CCm+)c"GC$m!a+)UGxc0)tt<t<m70LS+"2xGC$meG)@c)7ZStt $m
 </td>
 <td valign="middle">
 <a href="./Hist/HIDDEN.md">
-<img src="https://github.com/RadioNoiseE/RadioNoiseE/blob/main/ff0.png" alt="ff0" align="middle"/>
+<img src="./ff0.png" alt="ff0" align="middle"/>
 </a>
 </td>
 </tr>
