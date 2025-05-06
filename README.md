@@ -1,4 +1,4 @@
-<details><summary>GPG Key Exchange</summary>
+<details><summary>8FE4 21AE 5EA0 3504 43EF  8E85 C14D DEA3 A286 2E83</summary>
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
